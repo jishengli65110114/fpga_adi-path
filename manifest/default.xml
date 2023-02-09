@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote  name="fpga_adi-path" fetch="ssh://git@github.com:jishengli65110114/fpga_adi-path.git"/>
+ <remote  name="main" fetch="ssh://git@github.com:jishengli65110114/fpga_adi-path.git"/>
 
-<default remote="fpga_adi-path" revision="main" sync-j="4" />
+<default remote="main" revision="main" sync-j="4" />
 
-<project name="fpga_adi-path/project1" path="project1" remote="fpga_adi-path"/>
-<project name="fpga_adi-path/project2" path="project2" remote="fpga_adi-path"/>
-<project name="fpga_adi-path/project3" path="project3" remote="fpga_adi-path"/>
+<project name="main/project1" path="project1" remote="main"/>
+<project name="main/project2" path="project2" remote="main"/>
+<project name="main/project3" path="project3" remote="main"/>
 
